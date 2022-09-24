@@ -1,0 +1,19 @@
+//ASSIGNMENT 2-: Write a program to add sum of all natural number from 1 to 50
+public class Naddition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 50, i = 1, sum = 0;  
+		
+		while(i <= num)  
+		{  
+		
+		sum = sum + i;  
+		
+		i++;  
+		}  
+	  
+		System.out.println("Sum of Natural Numbers from 1 to 50 is = " + sum);  
+	}
+
+}
